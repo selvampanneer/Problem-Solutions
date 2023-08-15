@@ -46,7 +46,7 @@ int main()
             }
         }
     }
-    gmp_printf("%Zd",sum);
+    gmp_printf("%LCM of numbers from 10 to 100 is: Zd",sum);
     mpz_clear(sum);
 
     return 0;
